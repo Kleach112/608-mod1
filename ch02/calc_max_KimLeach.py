@@ -1,0 +1,75 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "946a967b-28ee-41f1-9ec0-d5eb16f02679",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter first integer:  2\n",
+      "Enter second integer:  5\n",
+      "Enter third integer:  8\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Maximum value is 8\n"
+     ]
+    }
+   ],
+   "source": [
+    "#2.9.2 PROJECT Kim Leach\n",
+    "\"\"\"Find the max of three values.\"\"\"\n",
+    "\n",
+    "number1 = int(input('Enter first integer: '))\n",
+    "number2 = int(input('Enter second integer: '))\n",
+    "number3 = int(input('Enter third integer: '))\n",
+    "\n",
+    "maximum = number1  \n",
+    "\n",
+    "if number2 > maximum:\n",
+    "    maximum = number2\n",
+    "\n",
+    "if number3 > maximum:\n",
+    "    maximum = number3\n",
+    "\n",
+    "print('Maximum value is', maximum)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d8200276-4155-4a60-b26b-e024c2f8c7e1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
